@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Load your pixel music audio file
-	const audio = new Audio('/tech-trek.github.io/sound/Lufia & the Fortress of Doom - A Reunion. And.mp3');
+	const audio = new Audio('/tech-trek/sound/Lufia & the Fortress of Doom - A Reunion. And.mp3');
 
 		audio.play();
 		audio.loop = true; 
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
             if (isAudioPlaying) {
                 // Pause audio and change icon to sound off
                 audio.pause();
-                soundIcon.src = '/tech-trek.github.io/img/sound_off.png';
+                soundIcon.src = '/tech-trek/img/sound_off.png';
             } else {
                 // Play audio and change icon to sound on
                 audio.play();
-                soundIcon.src = '/tech-trek.github.io/img/sound_on.png';
+                soundIcon.src = '/tech-trek/img/sound_on.png';
             }
             // Toggle audio playback state
             isAudioPlaying = !isAudioPlaying;
