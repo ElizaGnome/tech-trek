@@ -68,6 +68,6 @@ function draw() {
 draw();
 canvas.addEventListener('click', function () {
 	// Redirect to home page
-	window.location.href = '/'; // Replace 'home.html' with the actual URL of your home page
+	window.location.href = '/tech-trek/'; // Replace 'home.html' with the actual URL of your home page
 });
 
